@@ -320,7 +320,3 @@ docker exec discord-streaming-kafka /opt/kafka/bin/kafka-topics.sh \
 ## Dataset
 
 `data/messages.csv` contient environ 36 000 messages anonymisés provenant d'un serveur Discord français, avec sept colonnes : `Date, Channel, ServerID, ServerName, UserID, Message, Attachments`. `data/members.csv` est une petite table de correspondance qui associe les identifiants d'utilisateurs à leurs pseudos.
-
-## Licence
-
-MIT.
